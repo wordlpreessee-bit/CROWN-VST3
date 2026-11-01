@@ -6,7 +6,6 @@ CROWDAudioProcessor::CROWDAudioProcessor()
                                   .withOutput("Output", juce::AudioChannelSet::stereo(), true)),
    parameters(*this, nullptr, "PARAMETERS", makeLayout()) {}
 
-juce::AudioProcessorValueTreeState::ParameterLayout CRO WDAudioProcessor_dummy();
 juce::AudioProcessorValueTreeState::ParameterLayout CROWDAudioProcessor::makeLayout()
 {
     using P = juce::AudioProcessorValueTreeState;
