@@ -1,7 +1,6 @@
 #pragma once
 #include "PluginProcessor.h"
 
-class CROWD editorDummy;
 class CROWDAudioProcessorEditor : public juce::AudioProcessorEditor
 {
 public:
